@@ -1,0 +1,7 @@
+Rubik's Cube
+Strategy design pattern
+
+You could switch between different solving algorithms dynamically depending on user input or the type of cube (e.g., 2x2, 3x3, etc.).
+The core logic of how the cube is solved is separated into individual strategies (algorithms), making it easier to add new algorithms or change the existing ones.
+
+we can extend the cube solver to support multiple methods or more advanced solvers without modifying the overall structure of the code.
